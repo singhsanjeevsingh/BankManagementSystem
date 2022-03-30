@@ -234,7 +234,7 @@
           <Connection code="new java.awt.Color(0, 0, 0,80)" type="code"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\pexels-travis-blessing-1363876.jpg"/>
+          <Image iconType="3" name="/pexels-travis-blessing-1363876.jpg"/>
         </Property>
       </Properties>
       <Constraints>

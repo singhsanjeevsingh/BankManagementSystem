@@ -150,7 +150,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 70));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0,80));
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\pexels-travis-blessing-1363876.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pexels-travis-blessing-1363876.jpg"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         setSize(new java.awt.Dimension(1084, 607));
