@@ -66,6 +66,7 @@ public class Login extends javax.swing.JFrame {
 
         accountn.setBackground(new java.awt.Color(247, 247, 247));
         accountn.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        accountn.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 10, true));
         accountn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 accountnActionPerformed(evt);
@@ -79,22 +80,24 @@ public class Login extends javax.swing.JFrame {
 
         pass.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         pass.setForeground(new java.awt.Color(0, 0, 255));
+        pass.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(255, 255, 255), 10, true));
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 255));
+        jButton1.setBackground(new java.awt.Color(196, 58, 222));
         jButton1.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("LOGIN");
-        jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.LOWERED));
+        jButton1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(196, 58, 222), 0, true));
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 255));
+        jButton2.setBackground(new java.awt.Color(196, 58, 222));
         jButton2.setFont(new java.awt.Font("Times New Roman", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("REGISTER");
+        jButton2.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(196, 58, 222), 0, true));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -133,7 +136,7 @@ public class Login extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addGap(33, 33, 33)
                 .addComponent(jButton2)
-                .addContainerGap(36, Short.MAX_VALUE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 140, 350, 310));
@@ -143,7 +146,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0,80));
         jLabel2.setFont(new java.awt.Font("Lucida Calligraphy", 3, 36)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel2.setForeground(new java.awt.Color(196, 58, 222));
         jLabel2.setText("Bank Management System");
         jPanel2.add(jLabel2);
 
